@@ -24,5 +24,15 @@ $ python3 lightning_dl.py <.txt_FILE> <FILE_TYPE(MP3/MP4)> <DESTINATION> <MAX_TH
 ```
 If you don't want to use threads you can put `0` in the <MAX_THREADS> argument.
 
+## **Video:**
+https://youtu.be/hxaPTvnoaY4
+In this video, I'm explaining about the program, usage and demo of threading speed compared to no threads.
+I use a program called "ptime" to measure the program's execution time.
+If you have any question about this program, feel free to ask me in the comment.
+And if there's any mistake or misunderstanding in the code, I'd be pleased to know that. You can tell me in the comment as well.
+I'm new to threading so I still need to know some more things about it.
+
 ## **Credit:**
 This program uses a library called [pytube](https://pypi.org/project/pytube/) for downloading youtube videoes. You can visit the library site to see the details by clicking on the highlighted word "pytube".
+
+### Thanks for comming by :)
