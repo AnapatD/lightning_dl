@@ -5,7 +5,7 @@ This program is accelerated by using threads. (You can choose not to use it too 
 All you have to do is put your video links in a text file and run this program, and lighting_dl will download your videoes all at once.
 
 ## **Preparation:**
-In command promt/Terminal, direct in to the folder of your choice, clone the repository, then unzip it and run commands as follow;
+In command promt/Terminal, direct in to the folder of your choice, clone the repository, unzip it then direct in to the unzipped folder and run the command as follow;
 ### Windows:
 ```console
 $ pip install -r requirements.txt
@@ -15,6 +15,7 @@ $ pip install -r requirements.txt
 $ pip3 install -r requirements.txt
 ```
 ## **Usage:**
+In the program's folder, run the following command;
 ### Windows:
 ```console
 $ python project.py <.txt_FILE> <FILE_TYPE(MP3/MP4)> <DESTINATION> <MAX_THREADS>
