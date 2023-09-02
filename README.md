@@ -5,6 +5,7 @@ This program is accelerated by using threads. (You can choose not to use it too 
 All you have to do is put your video links in a text file and run this program, and lighting_dl will download your videoes all at once.
 
 ## **Preparation:**
+In command promt/Terminal, direct in to the folder of your choice, clone the repository, then unzip it and run commands as follow;
 ### Windows:
 ```console
 $ pip install -r requirements.txt
@@ -16,11 +17,11 @@ $ pip3 install -r requirements.txt
 ## **Usage:**
 ### Windows:
 ```console
-$ python lightning_dl.py <.txt_FILE> <FILE_TYPE(MP3/MP4)> <DESTINATION> <MAX_THREADS>
+$ python project.py <.txt_FILE> <FILE_TYPE(MP3/MP4)> <DESTINATION> <MAX_THREADS>
 ```
 ### Linux:
 ```console
-$ python3 lightning_dl.py <.txt_FILE> <FILE_TYPE(MP3/MP4)> <DESTINATION> <MAX_THREADS>
+$ python3 project.py <.txt_FILE> <FILE_TYPE(MP3/MP4)> <DESTINATION> <MAX_THREADS>
 ```
 If you don't want to use threads you can put `0` in the <MAX_THREADS> argument.
 
